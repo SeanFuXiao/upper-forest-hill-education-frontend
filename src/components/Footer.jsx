@@ -3,7 +3,8 @@ const Footer = () => {
     <footer className="bg-dark text-white text-center py-3 mt-auto">
       <div className="container">
         <p>
-          &copy; {new Date().getFullYear()} UFH Education. All rights reserved.
+          &copy; {new Date().getFullYear()} UFH Education. Sean X. Fu All rights
+          reserved.
         </p>
 
         {/* Social Media Links */}

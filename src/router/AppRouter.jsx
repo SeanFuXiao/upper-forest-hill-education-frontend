@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import ResetPassword from "../pages/ResetPassword";
@@ -19,7 +20,7 @@ import CourseStudent from "../pages/CourseStudent";
 const AppRouter = () => {
   return (
     <Routes>
-      <Route path="/" element={<h2>Welcome to UFH Education</h2>} />
+      <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/reset-password" element={<ResetPassword />} />
